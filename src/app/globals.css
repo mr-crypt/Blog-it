@@ -25,7 +25,7 @@ a{
 
 .container{
     min-height: 100vh;
-    background-color: var(--dark);
+    background-color: var(--light);
     color: var(--blue);
 }
 
@@ -37,6 +37,13 @@ a{
     padding-left: 80px;
     padding-right: 80px;
     border-radius: 20px;
+}
+
+li{
+    list-style: none;
+    display: inline;
+    justify-self: space-between;
+    align-self: center;
 }
 
 @media screen and (max-width:1536px) {
